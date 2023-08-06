@@ -9,7 +9,9 @@ return require('packer').startup(function(use)
 		-- or                            , branch = '0.1.x',
 		requires = { {'nvim-lua/plenary.nvim'} }
 	}
-	use 'tamelion/neovim-molokai'
+  use("fladson/vim-kitty")
+  use("sainnhe/vim-color-desert-night")
+	use('tamelion/neovim-molokai')
 	use({ 'rose-pine/neovim', as = 'rose-pine' })
 	use (
 	'nvim-treesitter/nvim-treesitter',
