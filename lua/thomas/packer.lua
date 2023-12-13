@@ -3,13 +3,16 @@ vim.cmd [[packadd packer.nvim]]
 
 return require('packer').startup(function(use)
 	-- Packer can manage itself
+    use 'sbdchd/neoformat'
+    use 'norcalli/nvim-colorizer.lua'
+    use { 'dccsillag/magma-nvim', run = ':UpdateRemotePlugins' }
+    use 'goerz/jupytext.vim'
 	use 'wbthomason/packer.nvim'
 	use {
 		'nvim-telescope/telescope.nvim', tag = '0.1.2',
 		-- or                            , branch = '0.1.x',
 		requires = { {'nvim-lua/plenary.nvim'} }
 	}
-    use("/sainnhe/everforest")
 	use("fladson/vim-kitty")
 	use('tamelion/neovim-molokai')
 	use({ 'rose-pine/neovim', as = 'rose-pine' })
