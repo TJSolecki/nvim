@@ -1,3 +1,5 @@
-require('thomas');
-vim.cmd('command! Vb normal! <C-v>')
-vim.api.nvim_set_option("clipboard","unnamed")
+require("thomas")
+vim.cmd("command! Vb normal! <C-v>")
+vim.cmd("let g:gitgutter_set_sign_backgrounds = 1")
+vim.cmd("highlight GitGutterDelete guifg=#eb6f92 ctermfg=1")
+vim.api.nvim_set_option("clipboard", "unnamed")
