@@ -89,11 +89,6 @@ _G.packer_plugins = {
     path = "/home/thomas/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
-  ["gleam.vim"] = {
-    loaded = true,
-    path = "/home/thomas/.local/share/nvim/site/pack/packer/start/gleam.vim",
-    url = "https://github.com/gleam-lang/gleam.vim"
-  },
   harpoon = {
     loaded = true,
     path = "/home/thomas/.local/share/nvim/site/pack/packer/start/harpoon",

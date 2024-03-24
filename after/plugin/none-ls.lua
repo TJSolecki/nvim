@@ -3,8 +3,8 @@ local augroup = vim.api.nvim_create_augroup("LspFormatting", {})
 
 require("null-ls").setup({
 	sources = {
-		null_ls.builtins.formatting.gleam_format,
 		null_ls.builtins.formatting.stylua,
+		null_ls.builtins.formatting.sql_formatter,
 		null_ls.builtins.formatting.prettierd,
 		null_ls.builtins.formatting.google_java_format,
 		null_ls.builtins.formatting.clang_format,

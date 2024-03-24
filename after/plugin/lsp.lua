@@ -76,7 +76,6 @@ lsp.on_attach(function(client, bufnr)
 end)
 
 lsp.setup()
-
 vim.diagnostic.config({
 	virtual_text = true,
 })
@@ -101,5 +100,5 @@ require("lspconfig").rust_analyzer.setup({
 		},
 	},
 })
-
-require("lspconfig").gleam.setup({})
+-- require("lspconfig").metals.setup({})
+-- require("lspconfig").gleam.setup({})

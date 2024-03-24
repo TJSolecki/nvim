@@ -3,7 +3,6 @@ vim.cmd([[packadd packer.nvim]])
 
 return require("packer").startup(function(use)
 	-- Packer can manage itself
-	use("gleam-lang/gleam.vim")
 	use("airblade/vim-gitgutter")
 	use("norcalli/nvim-colorizer.lua")
 	use({ "dccsillag/magma-nvim", run = ":UpdateRemotePlugins" })
@@ -23,7 +22,7 @@ return require("packer").startup(function(use)
 	use({ "rose-pine/neovim", as = "rose-pine" })
 	use({
 		"nvim-treesitter/nvim-treesitter",
-		commit = "cc360a9",
+		commit = "63260da",
 	})
 	use("m4xshen/autoclose.nvim")
 	use("windwp/nvim-ts-autotag")
