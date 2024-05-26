@@ -17,6 +17,7 @@ return require("packer").startup(function(use)
 		-- or                            , branch = '0.1.x',
 		requires = { { "nvim-lua/plenary.nvim" } },
 	})
+	use("barrett-ruth/live-server.nvim")
 	use("fladson/vim-kitty")
 	use("tamelion/neovim-molokai")
 	use({ "rose-pine/neovim", as = "rose-pine" })

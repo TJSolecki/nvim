@@ -100,5 +100,6 @@ require("lspconfig").rust_analyzer.setup({
 		},
 	},
 })
+require("lspconfig").jdtls.setup({})
 -- require("lspconfig").metals.setup({})
 -- require("lspconfig").gleam.setup({})
